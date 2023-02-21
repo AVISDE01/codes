@@ -1,0 +1,70 @@
+<!-- this is the page for farewell party form -->
+<html>
+    <head>
+        <title>
+            Farewell Party Registration.
+        </title>
+    </head>
+    <body>
+        <h1>Farewell Party Form</h1>
+        <form action="/farewell/submit.html" method="get">
+            <!--for name -->
+            <label for="name"> Enter the Name</label> 
+            <input id="name" type="text">
+            <br>
+            <br>
+            <!--for Email -->
+            <label for="Email"> Enter the Email</label>
+            <input id="Email" type="email">
+            <br>
+            <br>
+            <!--for age -->
+            <label for="age"> Enter the Age</label>
+            <input id="age" type="text">
+            <br><br>
+            <!-- for the section dropdown-->
+            <label for="year">Which option best describes you ? </label>
+            <select name="year" id="year">
+            <option value="fy">1st year</option>
+            <option value="sy">2nd year</option>
+            <option value="ty">3rd year</option>
+            <option value="fry">4th year</option>
+            </select>
+            <br>
+            <!-- for the radion button-->
+            <p> Will you attend the party?
+                <input type="radio" id="yes" name="fav_language" value="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="fav_language" value="no">
+                <label for="no">No</label><br>
+            </p> 
+            <!-- for the check box -->
+            <p> What did you like about the Program? <br>
+                <input type="checkbox" id="t" name="vehicle1" value="training">
+                <label for="t"> Training</label><br>
+                <input type="checkbox" id="ls" name="vehicle2" value="ls">
+                <label for="ls"> learning session </label><br>
+                <input type="checkbox" id="cm" name="vehicle3" value="cm">
+                <label for="cm"> Community Meetups</label><br>
+                <input type="checkbox" id="bbs" name="vehicle1" value="bbs">
+                <label for="bbs"> Brown Bag Session</label><br>
+                <input type="checkbox" id="hm" name="vehicle2" value="hm">
+                <label for="hm"> Hyberid Mode</label><br>
+                <input type="checkbox" id="fo" name="vehicle3" value="fo">
+                <label for="fo"> Food and Office</label><br><br>
+            </p>
+            <!-- for textbox -->
+            <label for="su"> Any Suggestions ?</label> 
+            <textarea id="su" name="su" rows="4" cols="50"></textarea> <br> <br>
+
+            <!-- buttons-->
+            <button type="submit" formaction="/farewell/farewell.html">
+                Reset
+            </button>
+            <button type="submit" formaction="/farewell/submit.html">
+                Submit
+            </button>
+
+        </form>
+    </body>
+</html>

@@ -1,0 +1,60 @@
+.nav{
+    width: 700px;
+}
+img{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+h1{
+    display: inline;
+    padding: 2px 1px;
+    margin-top: 0px;
+    color: blue;
+    
+}
+.f_n{
+    color: orangered;
+}
+.nav_b {
+    float: right;
+    border-radius: 50px;
+    margin-top: 25px;
+}
+
+h5{
+    font-size: 20px;
+}
+h6{
+    font-size: 20px;
+    margin-left: 10%;
+    text-align: center;
+}
+hr{
+    width: 85%;
+    float: right;
+}
+.f_bar, .product{
+    width: 700px;
+}
+table{
+    background-color: blue;
+    width: 700px;
+    height: 90px; 
+    text-align: center;   
+}
+td{
+    background-color: aliceblue;
+    width: 100px;
+    height: 70px;
+    margin: 15px 15px;
+}
+.i_r{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+.inner{
+    width: 700px;
+    height: 400px;
+}
